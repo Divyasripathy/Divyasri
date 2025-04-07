@@ -1,0 +1,31 @@
+import random
+
+def play_game():
+    options = ['rock', 'paper', 'scissors']
+    computer = random.choice(options)
+
+    player = input("Enter rock, paper, or scissors: ").lower()
+    if player not in options:
+        print("Invalid choice. Try again.")
+        return
+
+    print(f"Computer chose: {computer}")
+
+    if player == computer:
+        print("It's a tie!")
+    elif (
+        (player == 'rock' and computer == 'scissors') or
+        (player == 'paper' and computer == 'rock') or
+        (player == 'scissors' and computer == 'paper')
+    ):
+        print("You win!")
+    else:
+        print("You lose!")
+
+# Run the game
+while True:
+    play_game()
+    again = input("Play again? (y/n): ").lower()
+    if again != 'y':
+        print("Thanks for playing!")
+        break
