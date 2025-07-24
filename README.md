@@ -33,7 +33,7 @@ A curious and adaptive **developer** with a strong foundation in **Python**, **M
 ## 📫 Let's Connect
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/divyasri-lakshmipathy-a9a94b328)  
-- 📧 your.email@example.com *(replace with your email)*
+- ?y divyasripathy2006@gmail.com
 
 ---
 
